@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
 
 import Courses from "./../course/Courses";
 import Students from "./../student/Students";
@@ -9,7 +9,8 @@ const Routes = () => {
     return (
         <React.Fragment>
             <Switch>
-                <Route exact path="/" component={Courses} />
+                <Redirect exact from="/" to="/courses" />
+                <Route exact path="/courses" component={Courses} />
                 <Route exact path="/students" component={Students} />
                 <Route exact path="/lecturers" component={Lecturers} />
             </Switch>
