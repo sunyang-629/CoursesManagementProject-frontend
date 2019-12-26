@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Lecturer = () => {
+const Lecturers = () => {
     return <div>this is Lecturer page</div>
 }
 
-export default Lecturer;
+export default Lecturers;
