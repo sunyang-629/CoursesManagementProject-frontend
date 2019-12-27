@@ -1,13 +1,15 @@
 import React from 'react';
-import Routes from './route/Routes';
-import TopNav from "./navigation/topNav";
-import './App.css';
+
+import Routes from './routes/Routes';
+import TopNav from "./navigation/TopNav";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <TopNav />
-      <Routes />
+      <main className="container">
+        <Routes />
+      </main>
     </div>
   );
 }
