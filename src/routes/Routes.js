@@ -2,7 +2,7 @@ import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 
 import CourseDetails from './../course/CourseDetails';
-import CourseEdit from './../course/CourseEdit';
+import CourseEdit from './../course/CoureseEdit';
 import CourseNew from './../course/CourseNew';
 import Courses from './../course/Courses';
 import Lectures from './../lecturer/Lecturers';
